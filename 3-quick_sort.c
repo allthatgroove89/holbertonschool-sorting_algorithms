@@ -38,11 +38,11 @@ void quicksort_recursion(int *array, int low, int high, size_t size)
  */
 void swap(int *x, int *y)
 {
-        int temp;
+int temp;
 
-        temp = *x;
-        *x = *y;
-        *y = temp;
+temp = *x;
+*x = *y;
+*y = temp;
 }
 /**
  *partition - function to separate array into sub arrays
